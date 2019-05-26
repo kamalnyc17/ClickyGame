@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ImageCard from "./components/ImageCard";
 import Wrapper from "./components/Wrapper";
 import NavTabs from "./components/NavTabs";
+import Footer from "./components/Footer";
 import imageFiles from "./imageFiles.json";
 
 var msg = "Click on any image to start the game!"
@@ -64,6 +65,7 @@ class App extends Component {
               imageArray={this.state.imageFiles}
             />
         ))}
+        <Footer />
       </Wrapper>
     );
   }

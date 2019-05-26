@@ -6,14 +6,13 @@ function NavTabs(props) {
       <div className="row text-white" style ={{backgroundColor:'#5133a4'}}>
         <div className="col-12">
           <h1 className="display-4 text-center">Clicky Game</h1>
-          <p className="text-center font-weight-bold">Click on an Image to Earn Points, but don't click on the same image twice!</p>
         </div>
       </div>      
       <div className="row text-white bg-danger">
-        <div className="col-6">
+        <div className="col-6" style ={{marginTop: '10px',marginBottom: '10px'}}>
           <span className="text-left font-weight-bold">{props.msg}</span>
         </div>
-        <div className="col-6 text-right">
+        <div className="col-6 text-right" style ={{marginTop: '10px',marginBottom: '10px'}}>
           <span className="text-right font-weight-bold">Score: {props.counter}</span> 
         </div>
       </div>
