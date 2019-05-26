@@ -9,10 +9,10 @@ function NavTabs(props) {
         </div>
       </div>      
       <div className="row text-white bg-danger">
-        <div className="col-8" style ={{marginTop: '10px',marginBottom: '10px'}}>
+        <div className="col-10" style ={{marginTop: '10px',marginBottom: '10px'}}>
           <span className="text-left font-weight-bold">{props.msg}</span>
         </div>
-        <div className="col-4 text-right" style ={{marginTop: '10px',marginBottom: '10px'}}>
+        <div className="col-2 text-right" style ={{marginTop: '10px',marginBottom: '10px'}}>
           <span className="text-right font-weight-bold">Score: {props.counter}</span> 
         </div>
       </div>
