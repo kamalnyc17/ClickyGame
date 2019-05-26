@@ -47,7 +47,6 @@ class App extends Component {
 
   // Map over this.state.imageFiles and render a ImageCard component for each imageFile object
   render() {
-    //console.log(this.state.imageFiles)
     return (
       <Wrapper>
         <NavTabs 
